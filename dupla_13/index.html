@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 13</title>
+</head>
+
+<!--13. Crie um código usando PHP + HTML com um formulário com um campo solicitando uma medida em metros.
+Ao clicar no botão, o PHP deverá converter esse valor para centímetros e exibir o resultado.-->
+
+<body>
+    <h2>Converter metros para centímetros</h2>
+    <form action="processa.php" method="post">
+        <label>Medida em metros:</label><br>
+        <input type="number" step="0.01" name="metro" required><br><br>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>
